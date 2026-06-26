@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Management Tool</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<h1>📋 Project Management Tool</h1>
+
+<p class="description">
+A Project Management Tool developed using HTML, CSS, JavaScript, Node.js and Express.js.
+</p>
+
+<p class="counter">
+Total Tasks: <span id="taskCount">0</span>
+</p>
+
+<div class="task-form">
+
+<input
+type="text"
+id="taskInput"
+placeholder="Enter Task Name">
+
+<select id="priority">
+<option value="High">High Priority</option>
+<option value="Medium">Medium Priority</option>
+<option value="Low">Low Priority</option>
+</select>
+
+<input type="date" id="dueDate">
+
+<button onclick="addTask()">
+Add Task
+</button>
+
+</div>
+
+<div class="boards">
+
+<div class="board">
+<h2>📋 To Do</h2>
+<div id="todoBoard"></div>
+</div>
+
+<div class="board">
+<h2>🚧 In Progress</h2>
+<div id="progressBoard"></div>
+</div>
+
+<div class="board">
+<h2>✅ Completed</h2>
+<div id="completedBoard"></div>
+</div>
+
+</div>
+
+<script src="/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+body{
+font-family:Arial,sans-serif;
+background:#f4f6f9;
+margin:0;
+padding:20px;
+}
+
+h1{
+text-align:center;
+color:#333;
+}
+
+.description{
+text-align:center;
+margin-bottom:15px;
+}
+
+.counter{
+text-align:center;
+font-size:18px;
+font-weight:bold;
+}
+
+.task-form{
+text-align:center;
+margin-bottom:20px;
+}
+
+.task-form input,
+.task-form select{
+padding:10px;
+margin:5px;
+}
+
+.task-form button{
+padding:10px 15px;
+cursor:pointer;
+}
+
+.boards{
+display:flex;
+gap:20px;
+justify-content:space-around;
+}
+
+.board{
+background:white;
+width:30%;
+min-height:500px;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.board h2{
+text-align:center;
+}
+
+.task-card{
+background:#eef2ff;
+padding:12px;
+margin-bottom:12px;
+border-left:5px solid #007bff;
+border-radius:8px;
+}
+
+.task-card h4{
+margin-top:0;
+}
+
+.task-card button{
+margin:5px;
+padding:6px 10px;
+cursor:pointer;
+}
+
+.comment-box{
+width:90%;
+padding:6px;
+margin-top:10px;
+}
+
+.comments{
+margin-top:10px;
+font-size:14px;
+}
